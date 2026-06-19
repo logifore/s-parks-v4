@@ -1,4 +1,4 @@
-# S-parks V6 Supabase 接入说明
+# S-parks V6.5 Supabase 接入说明
 
 `sparks-v6` 已经按 `Supabase Auth + profiles` 的方式接好了前端结构。当前登录页已经支持“账号名或邮箱”两种输入方式，并默认带有本地测试账号兜底模式。
 
@@ -13,8 +13,8 @@
 
 ```js
 window.SPARKS_CONFIG = {
-  version: "sparks-v6.0.0",
-  authStorageKey: "sparks-v6-session",
+  version: "sparks-v6.5.0",
+  authStorageKey: "sparks-v6-5-session",
   supabaseUrl: "https://YOUR_PROJECT.supabase.co",
   supabaseAnonKey: "YOUR_SUPABASE_ANON_KEY"
 };

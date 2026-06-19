@@ -1,4 +1,4 @@
-# S-parks V6 Legal And Safety Notes
+# S-parks V6.5 Legal And Safety Notes
 
 ## Current Status
 
@@ -12,7 +12,8 @@ This folder is a static V6 UI prototype. It is not a production marketplace and 
 
 ## Security Boundary
 
-- No API keys, OAuth secrets, payment keys, database URLs, or environment variables should be committed to this static project.
+- The frontend currently includes a public Supabase project URL and publishable / anon key for prototype auth flow testing; these are public client-side values, not high-privilege server secrets.
+- No OAuth secrets, service-role keys, payment keys, database passwords, or private environment variables should be committed to this static project.
 - Real login, upload, purchase, member points, creator revenue, and admin moderation must be implemented server-side.
 - Production features must include authentication, authorization, input validation, upload scanning, rate limiting, audit logs, abuse reporting, and secure storage.
 

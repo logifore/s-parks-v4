@@ -1,8 +1,8 @@
 "use strict";
 
 window.SPARKS_CONFIG = {
-  version: "sparks-v6.0.0",
-  authStorageKey: "sparks-v6-session",
+  version: "sparks-v6.5.0",
+  authStorageKey: "sparks-v6-5-session",
   localAuthFallbackEnabled: true,
   localAccounts: [
     {
@@ -33,6 +33,6 @@ window.SPARKS_CONFIG = {
       avatarUrl: ""
     }
   ],
-  supabaseUrl: "",
-  supabaseAnonKey: ""
+  supabaseUrl: "https://nyntzzycktnzghaffvzr.supabase.co",
+  supabaseAnonKey: "sb_publishable_kn_S6ekzdaE_QVjaseSZ7A_gQAz1zRF"
 };

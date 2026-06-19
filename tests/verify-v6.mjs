@@ -81,11 +81,11 @@ function checkAssets(renderers, content, state, css, appSource) {
 }
 
 function checkVersionAndSafety(configSource, indexSource, routerSource) {
-  assert(configSource.includes('version: "sparks-v6.0.0"'), "config.js 版本号不是 v6.0.0");
-  assert(configSource.includes('authStorageKey: "sparks-v6-session"'), "config.js 会话 key 不是 v6");
-  assert(configSource.includes('supabaseUrl: ""'), "supabaseUrl 不是空占位");
-  assert(configSource.includes('supabaseAnonKey: ""'), "supabaseAnonKey 不是空占位");
-  assert(indexSource.includes('S-parks V6 | 创作者工作流平台'), "index.html 标题未同步到 v6");
+  assert(configSource.includes('version: "sparks-v6.5.0"'), "config.js 版本号不是 v6.5.0");
+  assert(configSource.includes('authStorageKey: "sparks-v6-5-session"'), "config.js 会话 key 不是 v6.5");
+  assert(configSource.includes('supabaseUrl: "https://nyntzzycktnzghaffvzr.supabase.co"'), "supabaseUrl 未同步到当前公开配置");
+  assert(configSource.includes('supabaseAnonKey: "sb_publishable_kn_S6ekzdaE_QVjaseSZ7A_gQAz1zRF"'), "supabaseAnonKey 未同步到当前公开配置");
+  assert(indexSource.includes('S-parks V6.5 | 创作者工作流平台'), "index.html 标题未同步到 v6.5");
   assert(indexSource.includes('#guide?guide=privacy-policy'), "页脚隐私政策未连接到专题页");
   assert(routerSource.includes('guide: "guide"'), "router.js 缺少 guide 动态参数");
 }

@@ -1,6 +1,11 @@
-# S-parks V6 Collaboration Guide
+# S-parks V6.5 Collaboration Guide
 
 这个仓库按“你主 UI / 交互、同事同步做功能扩展”的方式协作。目标是让设计、功能和发布节奏彼此解耦，但仍然保持主分支稳定。
+
+配套说明：
+
+- `TEAM_WORKFLOW.md`: 给功能同事直接照着执行的流程
+- `AGENTS.md`: 给 Codex / AI 助手执行时读取的规则
 
 ## 协作原则
 

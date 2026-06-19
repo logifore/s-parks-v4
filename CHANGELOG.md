@@ -2,6 +2,25 @@
 
 All notable changes to S-parks are documented in this file.
 
+## [6.5.0] - 2026-06-19
+
+### Release Ops
+
+- Promote S-parks V6.5 as the single latest release across GitHub and Vercel.
+- Keep the `sparks-v6` repository and deployment line as the stable V6 release container while advancing the public version markers to `v6.5.0`.
+- Switch the public release strategy to a fixed `https://s-parks.vercel.app` address so future versions no longer need versioned public URLs.
+
+### Identity And Config
+
+- Keep the three built-in public test accounts enabled on the deployed site for the current prototype stage.
+- Add the Supabase public frontend URL and publishable / anon key to the client configuration so the project can later transition to real auth without reshaping the UI flow.
+- Rotate session and cache version markers to the `v6.5` line.
+
+### Documentation
+
+- Update the release README to describe the fixed public URL policy and the current V6.5 release scope.
+- Refresh the security wording so docs match the current public frontend configuration state.
+
 ## [6.0.0] - 2026-06-17
 
 ### Release Ops

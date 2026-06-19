@@ -2,7 +2,7 @@
 
 window.SparksAuth = (() => {
   const config = window.SPARKS_CONFIG || {};
-  const SESSION_KEY = config.authStorageKey || "sparks-v6-session";
+  const SESSION_KEY = config.authStorageKey || "sparks-v6-5-session";
   const PROFILE_FIELDS = "id,email,username,display_name,role,creator_id,avatar_url,status";
   const LOCAL_AUTH_DOMAIN = "sparks.local";
   const LOCAL_ACCOUNTS = Array.isArray(config.localAccounts) ? config.localAccounts : [];
